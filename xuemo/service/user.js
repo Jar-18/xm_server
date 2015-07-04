@@ -2,19 +2,19 @@ var models = require('../models');
 
 var dateUtil = require('../util/dateUtil');
 
-exports.create = function(params) {
-	if (params.password) {
+exports.create = function(newUser) {
+	if (newUser.password) {
 		var sha1 = crypto.createHash('sha1');
 		sha1.update(password);
-		params.passwordHash = sha1.digest();
+		newUser.passwordHash = sha1.digest();
 	}
 
-	if (params.birthday) {
-		var birthdayDate = new Date(params.birthday);
+	if (newUser.birthday) {
+		var birthdayDate = new Date(newUser.birthday);
 		var now = new Date();
-		params.age = 1900 + now.getYear() - params.birthday.split('-')[0];
-		params.constellation = dateUtil.specifyConstellation(birthdayDate);
+		newUser.age = 1900 + now.getYear() - newUser.birthday.split('-')[0];
+		newUser.constellation = dateUtil.specifyConstellation(birthdayDate);
 	}
 
-	return models.User.create(params);
+	return models.User.create(newUser);
 }
