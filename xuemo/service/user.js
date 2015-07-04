@@ -2,7 +2,7 @@ var models = require('../models');
 
 var dateUtil = require('../util/dateUtil');
 
-exports.createUser = function(params) {
+exports.create = function(params) {
 	if (params.password) {
 		var sha1 = crypto.createHash('sha1');
 		sha1.update(password);

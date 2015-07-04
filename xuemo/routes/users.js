@@ -13,7 +13,7 @@ router.post('/', function(req, res, next) {
     motto: req.body.motto,
     birthday: req.body.birthday
 	}
-	userService.createUser(params)
+	userService.create(params)
 		.then(function(user) {
 			res.status(201)
 				.json(user);
