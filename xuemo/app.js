@@ -5,10 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var models = require("./models");
-models.sequelize.sync({
-  force: true
-});
+var testData = require("./test/data");
+testData.createInitData();
 
 var auth = require('./routes/auth');
 

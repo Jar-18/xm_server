@@ -1,0 +1,1165 @@
+[{
+	"code": "01",
+	"fullName": "上海",
+	"id": 1,
+	"name": "上海",
+	"parentId": 1
+}, {
+	"code": "0101",
+	"fullName": "上海,卢湾区",
+	"id": 2,
+	"name": "卢湾区",
+	"parentId": 1
+}, {
+	"code": "010101",
+	"fullName": "上海,卢湾区,淮海路",
+	"id": 3,
+	"name": "淮海路",
+	"parentId": 2
+}, {
+	"code": "010102",
+	"fullName": "上海,卢湾区,新天地",
+	"id": 4,
+	"name": "新天地",
+	"parentId": 2
+}, {
+	"code": "010103",
+	"fullName": "上海,卢湾区,瑞金宾馆区",
+	"id": 5,
+	"name": "瑞金宾馆区",
+	"parentId": 2
+}, {
+	"code": "010104",
+	"fullName": "上海,卢湾区,打浦桥",
+	"id": 6,
+	"name": "打浦桥",
+	"parentId": 2
+}, {
+	"code": "0102",
+	"fullName": "上海,徐汇区",
+	"id": 7,
+	"name": "徐汇区",
+	"parentId": 1
+}, {
+	"code": "010201",
+	"fullName": "上海,徐汇区,徐家汇",
+	"id": 8,
+	"name": "徐家汇",
+	"parentId": 7
+}, {
+	"code": "010202",
+	"fullName": "上海,徐汇区,万体馆",
+	"id": 9,
+	"name": "万体馆",
+	"parentId": 7
+}, {
+	"code": "010203",
+	"fullName": "上海,徐汇区,衡山路",
+	"id": 10,
+	"name": "衡山路",
+	"parentId": 7
+}, {
+	"code": "010204",
+	"fullName": "上海,徐汇区,复兴西路/丁香花园",
+	"id": 11,
+	"name": "复兴西路/丁香花园",
+	"parentId": 7
+}, {
+	"code": "010205",
+	"fullName": "上海,徐汇区,肇嘉浜路沿线",
+	"id": 12,
+	"name": "肇嘉浜路沿线",
+	"parentId": 7
+}, {
+	"code": "010206",
+	"fullName": "上海,徐汇区,音乐学院",
+	"id": 13,
+	"name": "音乐学院",
+	"parentId": 7
+}, {
+	"code": "010207",
+	"fullName": "上海,徐汇区,龙华",
+	"id": 14,
+	"name": "龙华",
+	"parentId": 7
+}, {
+	"code": "010208",
+	"fullName": "上海,徐汇区,漕河泾/田林",
+	"id": 15,
+	"name": "漕河泾/田林",
+	"parentId": 7
+}, {
+	"code": "010209",
+	"fullName": "上海,徐汇区,上海南站",
+	"id": 16,
+	"name": "上海南站",
+	"parentId": 7
+}, {
+	"code": "010210",
+	"fullName": "上海,徐汇区,光启城",
+	"id": 17,
+	"name": "光启城",
+	"parentId": 7
+}, {
+	"code": "0103",
+	"fullName": "上海,静安区",
+	"id": 18,
+	"name": "静安区",
+	"parentId": 1
+}, {
+	"code": "010301",
+	"fullName": "上海,静安区,南京西路",
+	"id": 19,
+	"name": "南京西路",
+	"parentId": 18
+}, {
+	"code": "010302",
+	"fullName": "上海,静安区,静安寺",
+	"id": 20,
+	"name": "静安寺",
+	"parentId": 18
+}, {
+	"code": "010303",
+	"fullName": "上海,静安区,曹家渡",
+	"id": 21,
+	"name": "曹家渡",
+	"parentId": 18
+}, {
+	"code": "010304",
+	"fullName": "上海,静安区,同乐坊",
+	"id": 22,
+	"name": "同乐坊",
+	"parentId": 18
+}, {
+	"code": "0104",
+	"fullName": "上海,长宁区",
+	"id": 23,
+	"name": "长宁区",
+	"parentId": 1
+}, {
+	"code": "010401",
+	"fullName": "上海,长宁区,虹桥",
+	"id": 24,
+	"name": "虹桥",
+	"parentId": 23
+}, {
+	"code": "010402",
+	"fullName": "上海,长宁区,天山",
+	"id": 25,
+	"name": "天山",
+	"parentId": 23
+}, {
+	"code": "010403",
+	"fullName": "上海,长宁区,古北",
+	"id": 26,
+	"name": "古北",
+	"parentId": 23
+}, {
+	"code": "010404",
+	"fullName": "上海,长宁区,中山公园",
+	"id": 27,
+	"name": "中山公园",
+	"parentId": 23
+}, {
+	"code": "010405",
+	"fullName": "上海,长宁区,上海影城/新华路",
+	"id": 28,
+	"name": "上海影城/新华路",
+	"parentId": 23
+}, {
+	"code": "010406",
+	"fullName": "上海,长宁区,动物园/虹桥机场",
+	"id": 29,
+	"name": "动物园/虹桥机场",
+	"parentId": 23
+}, {
+	"code": "010407",
+	"fullName": "上海,长宁区,北新泾",
+	"id": 30,
+	"name": "北新泾",
+	"parentId": 23
+}, {
+	"code": "0105",
+	"fullName": "上海,闵行区",
+	"id": 31,
+	"name": "闵行区",
+	"parentId": 1
+}, {
+	"code": "010501",
+	"fullName": "上海,闵行区,虹桥镇",
+	"id": 32,
+	"name": "虹桥镇",
+	"parentId": 31
+}, {
+	"code": "010502",
+	"fullName": "上海,闵行区,虹梅路",
+	"id": 33,
+	"name": "虹梅路",
+	"parentId": 31
+}, {
+	"code": "010503",
+	"fullName": "上海,闵行区,七宝",
+	"id": 34,
+	"name": "七宝",
+	"parentId": 31
+}, {
+	"code": "010504",
+	"fullName": "上海,闵行区,莘庄",
+	"id": 35,
+	"name": "莘庄",
+	"parentId": 31
+}, {
+	"code": "010505",
+	"fullName": "上海,闵行区,南方商城",
+	"id": 36,
+	"name": "南方商城",
+	"parentId": 31
+}, {
+	"code": "010506",
+	"fullName": "上海,闵行区,春申地区",
+	"id": 37,
+	"name": "春申地区",
+	"parentId": 31
+}, {
+	"code": "010507",
+	"fullName": "上海,闵行区,老闵行",
+	"id": 38,
+	"name": "老闵行",
+	"parentId": 31
+}, {
+	"code": "010508",
+	"fullName": "上海,闵行区,万源城/东兰路",
+	"id": 39,
+	"name": "万源城/东兰路",
+	"parentId": 31
+}, {
+	"code": "010509",
+	"fullName": "上海,闵行区,龙柏地区",
+	"id": 40,
+	"name": "龙柏地区",
+	"parentId": 31
+}, {
+	"code": "010510",
+	"fullName": "上海,闵行区,莘庄龙之梦",
+	"id": 41,
+	"name": "莘庄龙之梦",
+	"parentId": 31
+}, {
+	"code": "010511",
+	"fullName": "上海,闵行区,浦江镇",
+	"id": 42,
+	"name": "浦江镇",
+	"parentId": 31
+}, {
+	"code": "010512",
+	"fullName": "上海,闵行区,华漕",
+	"id": 43,
+	"name": "华漕",
+	"parentId": 31
+}, {
+	"code": "010513",
+	"fullName": "上海,闵行区,颛桥",
+	"id": 44,
+	"name": "颛桥",
+	"parentId": 31
+}, {
+	"code": "010514",
+	"fullName": "上海,闵行区,北桥",
+	"id": 45,
+	"name": "北桥",
+	"parentId": 31
+}, {
+	"code": "010515",
+	"fullName": "上海,闵行区,吴泾",
+	"id": 46,
+	"name": "吴泾",
+	"parentId": 31
+}, {
+	"code": "010516",
+	"fullName": "上海,闵行区,交大闵行校区",
+	"id": 47,
+	"name": "交大闵行校区",
+	"parentId": 31
+}, {
+	"code": "010517",
+	"fullName": "上海,闵行区,好爱广场",
+	"id": 48,
+	"name": "好爱广场",
+	"parentId": 31
+}, {
+	"code": "010518",
+	"fullName": "上海,闵行区,金平路步行街",
+	"id": 49,
+	"name": "金平路步行街",
+	"parentId": 31
+}, {
+	"code": "010519",
+	"fullName": "上海,闵行区,仲盛商业中心",
+	"id": 50,
+	"name": "仲盛商业中心",
+	"parentId": 31
+}, {
+	"code": "0106",
+	"fullName": "上海,浦东新区",
+	"id": 51,
+	"name": "浦东新区",
+	"parentId": 1
+}, {
+	"code": "010601",
+	"fullName": "上海,浦东新区,陆家嘴",
+	"id": 52,
+	"name": "陆家嘴",
+	"parentId": 51
+}, {
+	"code": "010602",
+	"fullName": "上海,浦东新区,八佰伴",
+	"id": 53,
+	"name": "八佰伴",
+	"parentId": 51
+}, {
+	"code": "010603",
+	"fullName": "上海,浦东新区,世纪公园",
+	"id": 54,
+	"name": "世纪公园",
+	"parentId": 51
+}, {
+	"code": "010604",
+	"fullName": "上海,浦东新区,上南地区",
+	"id": 55,
+	"name": "上南地区",
+	"parentId": 51
+}, {
+	"code": "010605",
+	"fullName": "上海,浦东新区,外高桥",
+	"id": 56,
+	"name": "外高桥",
+	"parentId": 51
+}, {
+	"code": "010606",
+	"fullName": "上海,浦东新区,金桥",
+	"id": 57,
+	"name": "金桥",
+	"parentId": 51
+}, {
+	"code": "010607",
+	"fullName": "上海,浦东新区,源深体育中心",
+	"id": 58,
+	"name": "源深体育中心",
+	"parentId": 51
+}, {
+	"code": "010608",
+	"fullName": "上海,浦东新区,张江",
+	"id": 59,
+	"name": "张江",
+	"parentId": 51
+}, {
+	"code": "010609",
+	"fullName": "上海,浦东新区,塘桥",
+	"id": 60,
+	"name": "塘桥",
+	"parentId": 51
+}, {
+	"code": "010610",
+	"fullName": "上海,浦东新区,川沙",
+	"id": 61,
+	"name": "川沙",
+	"parentId": 51
+}, {
+	"code": "010611",
+	"fullName": "上海,浦东新区,三林地区",
+	"id": 62,
+	"name": "三林地区",
+	"parentId": 51
+}, {
+	"code": "010612",
+	"fullName": "上海,浦东新区,碧云社区",
+	"id": 63,
+	"name": "碧云社区",
+	"parentId": 51
+}, {
+	"code": "010613",
+	"fullName": "上海,浦东新区,金杨地区",
+	"id": 64,
+	"name": "金杨地区",
+	"parentId": 51
+}, {
+	"code": "010614",
+	"fullName": "上海,浦东新区,康桥/周浦",
+	"id": 65,
+	"name": "康桥/周浦",
+	"parentId": 51
+}, {
+	"code": "010615",
+	"fullName": "上海,浦东新区,惠南镇",
+	"id": 66,
+	"name": "惠南镇",
+	"parentId": 51
+}, {
+	"code": "010616",
+	"fullName": "上海,浦东新区,临沂/南码头",
+	"id": 67,
+	"name": "临沂/南码头",
+	"parentId": 51
+}, {
+	"code": "010617",
+	"fullName": "上海,浦东新区,东明",
+	"id": 68,
+	"name": "东明",
+	"parentId": 51
+}, {
+	"code": "010618",
+	"fullName": "上海,浦东新区,浦东机场",
+	"id": 69,
+	"name": "浦东机场",
+	"parentId": 51
+}, {
+	"code": "010619",
+	"fullName": "上海,浦东新区,北蔡",
+	"id": 70,
+	"name": "北蔡",
+	"parentId": 51
+}, {
+	"code": "010620",
+	"fullName": "上海,浦东新区,三林镇",
+	"id": 71,
+	"name": "三林镇",
+	"parentId": 51
+}, {
+	"code": "010621",
+	"fullName": "上海,浦东新区,曹路",
+	"id": 72,
+	"name": "曹路",
+	"parentId": 51
+}, {
+	"code": "010622",
+	"fullName": "上海,浦东新区,新场",
+	"id": 73,
+	"name": "新场",
+	"parentId": 51
+}, {
+	"code": "010623",
+	"fullName": "上海,浦东新区,泥城",
+	"id": 74,
+	"name": "泥城",
+	"parentId": 51
+}, {
+	"code": "010624",
+	"fullName": "上海,浦东新区,临港新城",
+	"id": 75,
+	"name": "临港新城",
+	"parentId": 51
+}, {
+	"code": "010625",
+	"fullName": "上海,浦东新区,航头",
+	"id": 76,
+	"name": "航头",
+	"parentId": 51
+}, {
+	"code": "010626",
+	"fullName": "上海,浦东新区,高行",
+	"id": 77,
+	"name": "高行",
+	"parentId": 51
+}, {
+	"code": "0107",
+	"fullName": "上海,黄浦区",
+	"id": 78,
+	"name": "黄浦区",
+	"parentId": 1
+}, {
+	"code": "010701",
+	"fullName": "上海,黄浦区,外滩",
+	"id": 79,
+	"name": "外滩",
+	"parentId": 78
+}, {
+	"code": "010702",
+	"fullName": "上海,黄浦区,人民广场",
+	"id": 80,
+	"name": "人民广场",
+	"parentId": 78
+}, {
+	"code": "010703",
+	"fullName": "上海,黄浦区,南京东路",
+	"id": 81,
+	"name": "南京东路",
+	"parentId": 78
+}, {
+	"code": "010704",
+	"fullName": "上海,黄浦区,城隍庙",
+	"id": 82,
+	"name": "城隍庙",
+	"parentId": 78
+}, {
+	"code": "010705",
+	"fullName": "上海,黄浦区,老西门",
+	"id": 83,
+	"name": "老西门",
+	"parentId": 78
+}, {
+	"code": "010706",
+	"fullName": "上海,黄浦区,董家渡",
+	"id": 84,
+	"name": "董家渡",
+	"parentId": 78
+}, {
+	"code": "0108",
+	"fullName": "上海,普陀区",
+	"id": 85,
+	"name": "普陀区",
+	"parentId": 1
+}, {
+	"code": "010801",
+	"fullName": "上海,普陀区,真如",
+	"id": 86,
+	"name": "真如",
+	"parentId": 85
+}, {
+	"code": "010802",
+	"fullName": "上海,普陀区,武宁地区",
+	"id": 87,
+	"name": "武宁地区",
+	"parentId": 85
+}, {
+	"code": "010803",
+	"fullName": "上海,普陀区,月星环球港",
+	"id": 88,
+	"name": "月星环球港",
+	"parentId": 85
+}, {
+	"code": "010804",
+	"fullName": "上海,普陀区,桃浦",
+	"id": 89,
+	"name": "桃浦",
+	"parentId": 85
+}, {
+	"code": "010805",
+	"fullName": "上海,普陀区,长寿路",
+	"id": 90,
+	"name": "长寿路",
+	"parentId": 85
+}, {
+	"code": "010806",
+	"fullName": "上海,普陀区,长风公园/华师大",
+	"id": 91,
+	"name": "长风公园/华师大",
+	"parentId": 85
+}, {
+	"code": "010807",
+	"fullName": "上海,普陀区,曹杨地区",
+	"id": 92,
+	"name": "曹杨地区",
+	"parentId": 85
+}, {
+	"code": "010808",
+	"fullName": "上海,普陀区,梅川路",
+	"id": 93,
+	"name": "梅川路",
+	"parentId": 85
+}, {
+	"code": "010809",
+	"fullName": "上海,普陀区,中山北路/甘泉地区",
+	"id": 94,
+	"name": "中山北路/甘泉地区",
+	"parentId": 85
+}, {
+	"code": "0109",
+	"fullName": "上海,闸北区",
+	"id": 95,
+	"name": "闸北区",
+	"parentId": 1
+}, {
+	"code": "010901",
+	"fullName": "上海,闸北区,火车站",
+	"id": 96,
+	"name": "火车站",
+	"parentId": 95
+}, {
+	"code": "010902",
+	"fullName": "上海,闸北区,大宁地区",
+	"id": 97,
+	"name": "大宁地区",
+	"parentId": 95
+}, {
+	"code": "010903",
+	"fullName": "上海,闸北区,彭浦新村",
+	"id": 98,
+	"name": "彭浦新村",
+	"parentId": 95
+}, {
+	"code": "010904",
+	"fullName": "上海,闸北区,闸北公园",
+	"id": 99,
+	"name": "闸北公园",
+	"parentId": 95
+}, {
+	"code": "010905",
+	"fullName": "上海,闸北区,北区汽车站",
+	"id": 100,
+	"name": "北区汽车站",
+	"parentId": 95
+}, {
+	"code": "010906",
+	"fullName": "上海,闸北区,大悦城",
+	"id": 101,
+	"name": "大悦城",
+	"parentId": 95
+}, {
+	"code": "010907",
+	"fullName": "上海,闸北区,西藏北路/中兴路",
+	"id": 102,
+	"name": "西藏北路/中兴路",
+	"parentId": 95
+}, {
+	"code": "010908",
+	"fullName": "上海,闸北区,市北工业园/汶水路",
+	"id": 103,
+	"name": "市北工业园/汶水路",
+	"parentId": 95
+}, {
+	"code": "010909",
+	"fullName": "上海,闸北区,彭浦镇",
+	"id": 104,
+	"name": "彭浦镇",
+	"parentId": 95
+}, {
+	"code": "0110",
+	"fullName": "上海,虹口区",
+	"id": 105,
+	"name": "虹口区",
+	"parentId": 1
+}, {
+	"code": "011001",
+	"fullName": "上海,虹口区,曲阳地区",
+	"id": 106,
+	"name": "曲阳地区",
+	"parentId": 105
+}, {
+	"code": "011002",
+	"fullName": "上海,虹口区,虹口足球场",
+	"id": 107,
+	"name": "虹口足球场",
+	"parentId": 105
+}, {
+	"code": "011003",
+	"fullName": "上海,虹口区,四川北路",
+	"id": 108,
+	"name": "四川北路",
+	"parentId": 105
+}, {
+	"code": "011004",
+	"fullName": "上海,虹口区,海宁路/七浦路",
+	"id": 109,
+	"name": "海宁路/七浦路",
+	"parentId": 105
+}, {
+	"code": "011005",
+	"fullName": "上海,虹口区,临平路/和平公园",
+	"id": 110,
+	"name": "临平路/和平公园",
+	"parentId": 105
+}, {
+	"code": "011006",
+	"fullName": "上海,虹口区,北外滩",
+	"id": 111,
+	"name": "北外滩",
+	"parentId": 105
+}, {
+	"code": "011007",
+	"fullName": "上海,虹口区,凉城/江湾镇",
+	"id": 112,
+	"name": "凉城/江湾镇",
+	"parentId": 105
+}, {
+	"code": "011008",
+	"fullName": "上海,虹口区,赤峰路",
+	"id": 113,
+	"name": "赤峰路",
+	"parentId": 105
+}, {
+	"code": "0111",
+	"fullName": "上海,杨浦区",
+	"id": 114,
+	"name": "杨浦区",
+	"parentId": 1
+}, {
+	"code": "011101",
+	"fullName": "上海,杨浦区,五角场/大学区",
+	"id": 115,
+	"name": "五角场/大学区",
+	"parentId": 114
+}, {
+	"code": "011102",
+	"fullName": "上海,杨浦区,控江地区",
+	"id": 116,
+	"name": "控江地区",
+	"parentId": 114
+}, {
+	"code": "011103",
+	"fullName": "上海,杨浦区,中原地区",
+	"id": 117,
+	"name": "中原地区",
+	"parentId": 114
+}, {
+	"code": "011104",
+	"fullName": "上海,杨浦区,黄兴公园",
+	"id": 118,
+	"name": "黄兴公园",
+	"parentId": 114
+}, {
+	"code": "011105",
+	"fullName": "上海,杨浦区,平凉路",
+	"id": 119,
+	"name": "平凉路",
+	"parentId": 114
+}, {
+	"code": "011106",
+	"fullName": "上海,杨浦区,鞍山新村",
+	"id": 120,
+	"name": "鞍山新村",
+	"parentId": 114
+}, {
+	"code": "0112",
+	"fullName": "上海,宝山区",
+	"id": 121,
+	"name": "宝山区",
+	"parentId": 1
+}, {
+	"code": "011201",
+	"fullName": "上海,宝山区,大华地区",
+	"id": 122,
+	"name": "大华地区",
+	"parentId": 121
+}, {
+	"code": "011202",
+	"fullName": "上海,宝山区,淞滨地区",
+	"id": 123,
+	"name": "淞滨地区",
+	"parentId": 121
+}, {
+	"code": "011203",
+	"fullName": "上海,宝山区,庙行/共康",
+	"id": 124,
+	"name": "庙行/共康",
+	"parentId": 121
+}, {
+	"code": "011204",
+	"fullName": "上海,宝山区,上海大学",
+	"id": 125,
+	"name": "上海大学",
+	"parentId": 121
+}, {
+	"code": "011205",
+	"fullName": "上海,宝山区,宝山城区",
+	"id": 126,
+	"name": "宝山城区",
+	"parentId": 121
+}, {
+	"code": "011206",
+	"fullName": "上海,宝山区,通河/泗塘",
+	"id": 127,
+	"name": "通河/泗塘",
+	"parentId": 121
+}, {
+	"code": "011207",
+	"fullName": "上海,宝山区,顾村公园",
+	"id": 128,
+	"name": "顾村公园",
+	"parentId": 121
+}, {
+	"code": "011208",
+	"fullName": "上海,宝山区,美兰湖",
+	"id": 129,
+	"name": "美兰湖",
+	"parentId": 121
+}, {
+	"code": "011209",
+	"fullName": "上海,宝山区,月浦",
+	"id": 130,
+	"name": "月浦",
+	"parentId": 121
+}, {
+	"code": "011210",
+	"fullName": "上海,宝山区,杨行",
+	"id": 131,
+	"name": "杨行",
+	"parentId": 121
+}, {
+	"code": "011211",
+	"fullName": "上海,宝山区,高境",
+	"id": 132,
+	"name": "高境",
+	"parentId": 121
+}, {
+	"code": "011212",
+	"fullName": "上海,宝山区,淞南",
+	"id": 133,
+	"name": "淞南",
+	"parentId": 121
+}, {
+	"code": "0113",
+	"fullName": "上海,松江区",
+	"id": 134,
+	"name": "松江区",
+	"parentId": 1
+}, {
+	"code": "011301",
+	"fullName": "上海,松江区,松江镇",
+	"id": 135,
+	"name": "松江镇",
+	"parentId": 134
+}, {
+	"code": "011302",
+	"fullName": "上海,松江区,松江大学城",
+	"id": 136,
+	"name": "松江大学城",
+	"parentId": 134
+}, {
+	"code": "011303",
+	"fullName": "上海,松江区,佘山",
+	"id": 137,
+	"name": "佘山",
+	"parentId": 134
+}, {
+	"code": "011304",
+	"fullName": "上海,松江区,九亭",
+	"id": 138,
+	"name": "九亭",
+	"parentId": 134
+}, {
+	"code": "011305",
+	"fullName": "上海,松江区,泗泾",
+	"id": 139,
+	"name": "泗泾",
+	"parentId": 134
+}, {
+	"code": "011306",
+	"fullName": "上海,松江区,新桥",
+	"id": 140,
+	"name": "新桥",
+	"parentId": 134
+}, {
+	"code": "011307",
+	"fullName": "上海,松江区,开元地中海",
+	"id": 141,
+	"name": "开元地中海",
+	"parentId": 134
+}, {
+	"code": "011308",
+	"fullName": "上海,松江区,松东路",
+	"id": 142,
+	"name": "松东路",
+	"parentId": 134
+}, {
+	"code": "011309",
+	"fullName": "上海,松江区,江学路",
+	"id": 143,
+	"name": "江学路",
+	"parentId": 134
+}, {
+	"code": "011310",
+	"fullName": "上海,松江区,荣乐中路",
+	"id": 144,
+	"name": "荣乐中路",
+	"parentId": 134
+}, {
+	"code": "011311",
+	"fullName": "上海,松江区,中山中路",
+	"id": 145,
+	"name": "中山中路",
+	"parentId": 134
+}, {
+	"code": "011312",
+	"fullName": "上海,松江区,人民北路",
+	"id": 146,
+	"name": "人民北路",
+	"parentId": 134
+}, {
+	"code": "011313",
+	"fullName": "上海,松江区,飞航广场",
+	"id": 147,
+	"name": "飞航广场",
+	"parentId": 134
+}, {
+	"code": "011314",
+	"fullName": "上海,松江区,泰晤士小镇",
+	"id": 148,
+	"name": "泰晤士小镇",
+	"parentId": 134
+}, {
+	"code": "011315",
+	"fullName": "上海,松江区,新松江路",
+	"id": 149,
+	"name": "新松江路",
+	"parentId": 134
+}, {
+	"code": "011316",
+	"fullName": "上海,松江区,鹿都国际商业广场",
+	"id": 150,
+	"name": "鹿都国际商业广场",
+	"parentId": 134
+}, {
+	"code": "011317",
+	"fullName": "上海,松江区,松江万达",
+	"id": 151,
+	"name": "松江万达",
+	"parentId": 134
+}, {
+	"code": "0114",
+	"fullName": "上海,嘉定区",
+	"id": 152,
+	"name": "嘉定区",
+	"parentId": 1
+}, {
+	"code": "011401",
+	"fullName": "上海,嘉定区,南翔",
+	"id": 153,
+	"name": "南翔",
+	"parentId": 152
+}, {
+	"code": "011402",
+	"fullName": "上海,嘉定区,安亭",
+	"id": 154,
+	"name": "安亭",
+	"parentId": 152
+}, {
+	"code": "011403",
+	"fullName": "上海,嘉定区,嘉定镇",
+	"id": 155,
+	"name": "嘉定镇",
+	"parentId": 152
+}, {
+	"code": "011404",
+	"fullName": "上海,嘉定区,江桥",
+	"id": 156,
+	"name": "江桥",
+	"parentId": 152
+}, {
+	"code": "011405",
+	"fullName": "上海,嘉定区,丰庄",
+	"id": 157,
+	"name": "丰庄",
+	"parentId": 152
+}, {
+	"code": "011406",
+	"fullName": "上海,嘉定区,罗宾森广场",
+	"id": 158,
+	"name": "罗宾森广场",
+	"parentId": 152
+}, {
+	"code": "011407",
+	"fullName": "上海,嘉定区,博乐广场",
+	"id": 159,
+	"name": "博乐广场",
+	"parentId": 152
+}, {
+	"code": "011408",
+	"fullName": "上海,嘉定区,马陆",
+	"id": 160,
+	"name": "马陆",
+	"parentId": 152
+}, {
+	"code": "011409",
+	"fullName": "上海,嘉定区,新源路",
+	"id": 161,
+	"name": "新源路",
+	"parentId": 152
+}, {
+	"code": "011410",
+	"fullName": "上海,嘉定区,戬浜",
+	"id": 162,
+	"name": "戬浜",
+	"parentId": 152
+}, {
+	"code": "011411",
+	"fullName": "上海,嘉定区,黄渡",
+	"id": 163,
+	"name": "黄渡",
+	"parentId": 152
+}, {
+	"code": "011412",
+	"fullName": "上海,嘉定区,嘉定新城",
+	"id": 164,
+	"name": "嘉定新城",
+	"parentId": 152
+}, {
+	"code": "0115",
+	"fullName": "上海,青浦区",
+	"id": 165,
+	"name": "青浦区",
+	"parentId": 1
+}, {
+	"code": "011501",
+	"fullName": "上海,青浦区,朱家角",
+	"id": 166,
+	"name": "朱家角",
+	"parentId": 165
+}, {
+	"code": "011502",
+	"fullName": "上海,青浦区,青浦城区",
+	"id": 167,
+	"name": "青浦城区",
+	"parentId": 165
+}, {
+	"code": "011503",
+	"fullName": "上海,青浦区,重固",
+	"id": 168,
+	"name": "重固",
+	"parentId": 165
+}, {
+	"code": "011504",
+	"fullName": "上海,青浦区,赵巷",
+	"id": 169,
+	"name": "赵巷",
+	"parentId": 165
+}, {
+	"code": "011505",
+	"fullName": "上海,青浦区,华新",
+	"id": 170,
+	"name": "华新",
+	"parentId": 165
+}, {
+	"code": "011506",
+	"fullName": "上海,青浦区,徐泾",
+	"id": 171,
+	"name": "徐泾",
+	"parentId": 165
+}, {
+	"code": "0116",
+	"fullName": "上海,奉贤区",
+	"id": 172,
+	"name": "奉贤区",
+	"parentId": 1
+}, {
+	"code": "011601",
+	"fullName": "上海,奉贤区,南桥",
+	"id": 173,
+	"name": "南桥",
+	"parentId": 172
+}, {
+	"code": "011602",
+	"fullName": "上海,奉贤区,西渡",
+	"id": 174,
+	"name": "西渡",
+	"parentId": 172
+}, {
+	"code": "011603",
+	"fullName": "上海,奉贤区,环城东路",
+	"id": 175,
+	"name": "环城东路",
+	"parentId": 172
+}, {
+	"code": "011604",
+	"fullName": "上海,奉贤区,易买得",
+	"id": 176,
+	"name": "易买得",
+	"parentId": 172
+}, {
+	"code": "011605",
+	"fullName": "上海,奉贤区,百联南桥购物中心",
+	"id": 177,
+	"name": "百联南桥购物中心",
+	"parentId": 172
+}, {
+	"code": "011606",
+	"fullName": "上海,奉贤区,环城南路",
+	"id": 178,
+	"name": "环城南路",
+	"parentId": 172
+}, {
+	"code": "011607",
+	"fullName": "上海,奉贤区,正阳世纪星城",
+	"id": 179,
+	"name": "正阳世纪星城",
+	"parentId": 172
+}, {
+	"code": "011608",
+	"fullName": "上海,奉贤区,新都汇",
+	"id": 180,
+	"name": "新都汇",
+	"parentId": 172
+}, {
+	"code": "011609",
+	"fullName": "上海,奉贤区,南桥新城区",
+	"id": 181,
+	"name": "南桥新城区",
+	"parentId": 172
+}, {
+	"code": "011610",
+	"fullName": "上海,奉贤区,海湾旅游区",
+	"id": 182,
+	"name": "海湾旅游区",
+	"parentId": 172
+}, {
+	"code": "0117",
+	"fullName": "上海,金山区",
+	"id": 183,
+	"name": "金山区",
+	"parentId": 1
+}, {
+	"code": "011701",
+	"fullName": "上海,金山区,金山卫",
+	"id": 184,
+	"name": "金山卫",
+	"parentId": 183
+}, {
+	"code": "011702",
+	"fullName": "上海,金山区,卫零路",
+	"id": 185,
+	"name": "卫零路",
+	"parentId": 183
+}, {
+	"code": "011703",
+	"fullName": "上海,金山区,蒙山路",
+	"id": 186,
+	"name": "蒙山路",
+	"parentId": 183
+}, {
+	"code": "011704",
+	"fullName": "上海,金山区,卫清路",
+	"id": 187,
+	"name": "卫清路",
+	"parentId": 183
+}, {
+	"code": "011705",
+	"fullName": "上海,金山区,金山嘴",
+	"id": 188,
+	"name": "金山嘴",
+	"parentId": 183
+}, {
+	"code": "011706",
+	"fullName": "上海,金山区,朱泾",
+	"id": 189,
+	"name": "朱泾",
+	"parentId": 183
+}, {
+	"code": "011707",
+	"fullName": "上海,金山区,石化",
+	"id": 190,
+	"name": "石化",
+	"parentId": 183
+}, {
+	"code": "011708",
+	"fullName": "上海,金山区,金山新城",
+	"id": 191,
+	"name": "金山新城",
+	"parentId": 183
+}, {
+	"code": "011709",
+	"fullName": "上海,金山区,朱行",
+	"id": 192,
+	"name": "朱行",
+	"parentId": 183
+}, {
+	"code": "011710",
+	"fullName": "上海,金山区,枫泾",
+	"id": 193,
+	"name": "枫泾",
+	"parentId": 183
+}, {
+	"code": "011711",
+	"fullName": "上海,金山区,亭林",
+	"id": 194,
+	"name": "亭林",
+	"parentId": 183
+}]

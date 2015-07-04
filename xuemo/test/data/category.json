@@ -1,0 +1,476 @@
+[{
+	"code": "01",
+	"id": 1,
+	"name": "不限",
+	"parentId": 1
+}, {
+	"code": "0101",
+	"id": 2,
+	"name": "语言",
+	"parentId": 1
+}, {
+	"code": "010101",
+	"id": 3,
+	"name": "英语雅思",
+	"parentId": 2
+}, {
+	"code": "010102",
+	"id": 4,
+	"name": "英语托福",
+	"parentId": 2
+}, {
+	"code": "010103",
+	"id": 5,
+	"name": "英语GRE/GMAT",
+	"parentId": 2
+}, {
+	"code": "010104",
+	"id": 6,
+	"name": "英语四六级",
+	"parentId": 2
+}, {
+	"code": "010105",
+	"id": 7,
+	"name": "英语口语",
+	"parentId": 2
+}, {
+	"code": "010106",
+	"id": 8,
+	"name": "德语",
+	"parentId": 2
+}, {
+	"code": "010107",
+	"id": 9,
+	"name": "法语",
+	"parentId": 2
+}, {
+	"code": "010108",
+	"id": 10,
+	"name": "日语",
+	"parentId": 2
+}, {
+	"code": "010109",
+	"id": 11,
+	"name": "韩语",
+	"parentId": 2
+}, {
+	"code": "010110",
+	"id": 12,
+	"name": "其他",
+	"parentId": 2
+}, {
+	"code": "0102",
+	"id": 13,
+	"name": "体育",
+	"parentId": 1
+}, {
+	"code": "010201",
+	"id": 14,
+	"name": "健身",
+	"parentId": 13
+}, {
+	"code": "010202",
+	"id": 15,
+	"name": "减肥",
+	"parentId": 13
+}, {
+	"code": "010203",
+	"id": 16,
+	"name": "高尔夫",
+	"parentId": 13
+}, {
+	"code": "010204",
+	"id": 17,
+	"name": "网球",
+	"parentId": 13
+}, {
+	"code": "010205",
+	"id": 18,
+	"name": "羽毛球",
+	"parentId": 13
+}, {
+	"code": "010206",
+	"id": 19,
+	"name": "保龄球",
+	"parentId": 13
+}, {
+	"code": "010207",
+	"id": 20,
+	"name": "跆拳道",
+	"parentId": 13
+}, {
+	"code": "010208",
+	"id": 21,
+	"name": "柔道",
+	"parentId": 13
+}, {
+	"code": "010209",
+	"id": 22,
+	"name": "武术",
+	"parentId": 13
+}, {
+	"code": "010210",
+	"id": 23,
+	"name": "其他",
+	"parentId": 13
+}, {
+	"code": "0103",
+	"id": 24,
+	"name": "小学辅导",
+	"parentId": 1
+}, {
+	"code": "010301",
+	"id": 25,
+	"name": "语文",
+	"parentId": 24
+}, {
+	"code": "010302",
+	"id": 26,
+	"name": "数学",
+	"parentId": 24
+}, {
+	"code": "010303",
+	"id": 27,
+	"name": "英语",
+	"parentId": 24
+}, {
+	"code": "010304",
+	"id": 28,
+	"name": "奥数",
+	"parentId": 24
+}, {
+	"code": "0104",
+	"id": 29,
+	"name": "初中辅导",
+	"parentId": 1
+}, {
+	"code": "010401",
+	"id": 30,
+	"name": "语文",
+	"parentId": 29
+}, {
+	"code": "010402",
+	"id": 31,
+	"name": "数学",
+	"parentId": 29
+}, {
+	"code": "010403",
+	"id": 32,
+	"name": "英文",
+	"parentId": 29
+}, {
+	"code": "010404",
+	"id": 33,
+	"name": "物理",
+	"parentId": 29
+}, {
+	"code": "010405",
+	"id": 34,
+	"name": "化学",
+	"parentId": 29
+}, {
+	"code": "010406",
+	"id": 35,
+	"name": "生物",
+	"parentId": 29
+}, {
+	"code": "010407",
+	"id": 36,
+	"name": "奥数",
+	"parentId": 29
+}, {
+	"code": "010408",
+	"id": 37,
+	"name": "其它",
+	"parentId": 29
+}, {
+	"code": "0105",
+	"id": 38,
+	"name": "高中辅导",
+	"parentId": 1
+}, {
+	"code": "010501",
+	"id": 39,
+	"name": "语文",
+	"parentId": 38
+}, {
+	"code": "010502",
+	"id": 40,
+	"name": "数学",
+	"parentId": 38
+}, {
+	"code": "010503",
+	"id": 41,
+	"name": "英文",
+	"parentId": 38
+}, {
+	"code": "010504",
+	"id": 42,
+	"name": "物理",
+	"parentId": 38
+}, {
+	"code": "010505",
+	"id": 43,
+	"name": "化学",
+	"parentId": 38
+}, {
+	"code": "010506",
+	"id": 44,
+	"name": "生物",
+	"parentId": 38
+}, {
+	"code": "010507",
+	"id": 45,
+	"name": "其它",
+	"parentId": 38
+}, {
+	"code": "0106",
+	"id": 46,
+	"name": "考研辅导",
+	"parentId": 1
+}, {
+	"code": "010601",
+	"id": 47,
+	"name": "考研辅导",
+	"parentId": 46
+}, {
+	"code": "010602",
+	"id": 48,
+	"name": "MBA",
+	"parentId": 46
+}, {
+	"code": "010603",
+	"id": 49,
+	"name": "MPA",
+	"parentId": 46
+}, {
+	"code": "010604",
+	"id": 50,
+	"name": "其它",
+	"parentId": 46
+}, {
+	"code": "0107",
+	"id": 51,
+	"name": "资格认证",
+	"parentId": 1
+}, {
+	"code": "010701",
+	"id": 52,
+	"name": "公务员",
+	"parentId": 51
+}, {
+	"code": "010702",
+	"id": 53,
+	"name": "建筑类",
+	"parentId": 51
+}, {
+	"code": "010703",
+	"id": 54,
+	"name": "金融会计类",
+	"parentId": 51
+}, {
+	"code": "010704",
+	"id": 55,
+	"name": "其它",
+	"parentId": 51
+}, {
+	"code": "0108",
+	"id": 56,
+	"name": "IT技能",
+	"parentId": 1
+}, {
+	"code": "010801",
+	"id": 57,
+	"name": "计算机等级",
+	"parentId": 56
+}, {
+	"code": "010802",
+	"id": 58,
+	"name": "平面设计(Photoshop)",
+	"parentId": 56
+}, {
+	"code": "010803",
+	"id": 59,
+	"name": "Java开发",
+	"parentId": 56
+}, {
+	"code": "010804",
+	"id": 60,
+	"name": "HTML5开发",
+	"parentId": 56
+}, {
+	"code": "010805",
+	"id": 61,
+	"name": "iOS开发",
+	"parentId": 56
+}, {
+	"code": "010806",
+	"id": 62,
+	"name": "Android开发",
+	"parentId": 56
+}, {
+	"code": "010807",
+	"id": 63,
+	"name": "微信公众号开发",
+	"parentId": 56
+}, {
+	"code": "010808",
+	"id": 64,
+	"name": "网站建设",
+	"parentId": 56
+}, {
+	"code": "010809",
+	"id": 65,
+	"name": "其它",
+	"parentId": 56
+}, {
+	"code": "0109",
+	"id": 66,
+	"name": "艺术",
+	"parentId": 1
+}, {
+	"code": "010901",
+	"id": 67,
+	"name": "舞蹈",
+	"parentId": 66
+}, {
+	"code": "010902",
+	"id": 68,
+	"name": "唱歌",
+	"parentId": 66
+}, {
+	"code": "010903",
+	"id": 69,
+	"name": "钢琴",
+	"parentId": 66
+}, {
+	"code": "010904",
+	"id": 70,
+	"name": "吉他",
+	"parentId": 66
+}, {
+	"code": "010905",
+	"id": 71,
+	"name": "架子鼓",
+	"parentId": 66
+}, {
+	"code": "010906",
+	"id": 72,
+	"name": "古筝",
+	"parentId": 66
+}, {
+	"code": "010907",
+	"id": 73,
+	"name": "萨克斯",
+	"parentId": 66
+}, {
+	"code": "010908",
+	"id": 74,
+	"name": "美术",
+	"parentId": 66
+}, {
+	"code": "010909",
+	"id": 75,
+	"name": "书法",
+	"parentId": 66
+}, {
+	"code": "010910",
+	"id": 76,
+	"name": "其它",
+	"parentId": 66
+}, {
+	"code": "0110",
+	"id": 77,
+	"name": "休闲娱乐",
+	"parentId": 1
+}, {
+	"code": "011001",
+	"id": 78,
+	"name": "棋类",
+	"parentId": 77
+}, {
+	"code": "011002",
+	"id": 79,
+	"name": "牌类",
+	"parentId": 77
+}, {
+	"code": "011003",
+	"id": 80,
+	"name": "网游",
+	"parentId": 77
+}, {
+	"code": "011004",
+	"id": 81,
+	"name": "桌游",
+	"parentId": 77
+}, {
+	"code": "011005",
+	"id": 82,
+	"name": "其他",
+	"parentId": 77
+}, {
+	"code": "0111",
+	"id": 83,
+	"name": "兴趣技能",
+	"parentId": 1
+}, {
+	"code": "011101",
+	"id": 84,
+	"name": "厨艺",
+	"parentId": 83
+}, {
+	"code": "011102",
+	"id": 85,
+	"name": "插花",
+	"parentId": 83
+}, {
+	"code": "011103",
+	"id": 86,
+	"name": "书法",
+	"parentId": 83
+}, {
+	"code": "011104",
+	"id": 87,
+	"name": "驾驶",
+	"parentId": 83
+}, {
+	"code": "011105",
+	"id": 88,
+	"name": "理财",
+	"parentId": 83
+}, {
+	"code": "011106",
+	"id": 89,
+	"name": "摄影",
+	"parentId": 83
+}, {
+	"code": "011107",
+	"id": 90,
+	"name": "设计",
+	"parentId": 83
+}, {
+	"code": "011108",
+	"id": 91,
+	"name": "礼仪",
+	"parentId": 83
+}, {
+	"code": "0112",
+	"id": 92,
+	"name": "其他",
+	"parentId": 1
+}, {
+	"code": "011201",
+	"id": 93,
+	"name": "移民",
+	"parentId": 92
+}, {
+	"code": "011202",
+	"id": 94,
+	"name": "留学",
+	"parentId": 92
+}, {
+	"code": "011203",
+	"id": 95,
+	"name": "其它",
+	"parentId": 92
+}]
