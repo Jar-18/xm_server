@@ -12,7 +12,13 @@ router.post('/requestTempAuth', function(req, res, next) {
 });
 
 router.post('/signAuth', function(req, res, next) {
-
+	var account = req.body.account;
+	var password = req.body.password;
+	authService.signAuth(account, password)
+		.then(function(authRes) {
+			res.status(200)
+				.json(authRes);
+		})
 });
 
 router.all('*', function(req, res, next) {
