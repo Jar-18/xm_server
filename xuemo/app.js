@@ -8,6 +8,11 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
+var models = require("./models");
+models.sequelize.sync({
+  force: true
+});
+
 var app = express();
 
 // view engine setup

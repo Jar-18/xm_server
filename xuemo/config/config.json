@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "xm_dev",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+08:00",
+    "redisHost": "127.0.0.1",
+    "redisPort": "6379",
+    "secrect": "uweqowjenvmxp"
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "xm_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+08:00",
+    "redisHost": "127.0.0.1",
+    "redisPort": "6379",
+    "secrect": "uweqowjenvmxp"
+  },
+  "production": {
+    "username": "root",
+    "password": "root",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
