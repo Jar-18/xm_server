@@ -11,6 +11,8 @@
     "debug": "~2.1.1",
     "express": "~4.12.2",
     "jade": "~1.9.2",
+    "jsonwebtoken": "^5.0.2",
+    "jwt-simple": "^0.3.0",
     "morgan": "~1.5.1",
     "mysql": "^2.7.0",
     "sequelize": "^3.3.2",
