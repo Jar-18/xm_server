@@ -22,10 +22,6 @@ router.post('/signAuth', function(req, res, next) {
 });
 
 router.all('*', function(req, res, next) {
-	// GET 'http://www.example.com/admin/new'
-	console.log(req.originalUrl); // '/admin/new'
-	console.log(req.baseUrl); // '/admin'
-	console.log(req.path); // '/new'
 	var token = req.body.token || req.query.token || req.headers['authorization'];
 	var authRes = authService.verifyAuth(token);
 	if ('Success' == authRes.status) {

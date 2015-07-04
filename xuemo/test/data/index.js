@@ -1,5 +1,5 @@
 var models = require("../../models");
-// var data = require("./data.json");
+var data = require("./data.json");
 var districts = require("./districts.json");
 var categories = require("./category.json");
 
@@ -17,5 +17,14 @@ exports.createInitData = function() {
     })
     .then(function() {
       return models.Category.bulkCreate(categories);
+    })
+    .then(function() {
+      return models.User.bulkCreate(data.users);
+    })
+    .then(function() {
+      return models.Course.bulkCreate(data.courses);
+    })
+    .then(function() {
+      return models.CoursePic.bulkCreate(data.coursePics);
     });
 }
