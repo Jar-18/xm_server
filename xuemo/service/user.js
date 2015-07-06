@@ -36,3 +36,23 @@ exports.findOne = function(userId) {
 		}]
 	});
 }
+
+exports.modify = function(modifiedUser) {
+	if (modifiedUser.password) {
+		var sha1 = crypto.createHash('sha1');
+		sha1.update(password);
+		modifiedUser.passwordHash = sha1.digest();
+	}
+
+	if (modifiedUser.birthday) {
+		var birthdayDate = new Date(modifiedUser.birthday);
+		var now = new Date();
+		modifiedUser.age = 1900 + now.getYear() - modifiedUser.birthday.split('-')[0];
+		modifiedUser.constellation = dateUtil.specifyConstellation(birthdayDate);
+	}
+
+	return models.User.find(modifiedUser.id)
+		.then(function(user) {
+			return user.updateAttributes(modifiedUser);
+		})
+}

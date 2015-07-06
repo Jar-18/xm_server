@@ -29,7 +29,20 @@ router.get('/:userId', function(req, res, next) {
 			});
 	})
 	.put('/:userId', function(req, res, next) {
-
+		var modifiedUser = {
+			id: req.body.id,
+			password: req.body.password,
+			nickname: req.body.nickname,
+			gender: req.body.gender,
+			portrait: req.body.portrait,
+			motto: req.body.motto,
+			birthday: req.body.birthday
+		}
+		userService.modify(modifiedUser)
+			.then(function(user) {
+				res.status(201)
+					.json(user);
+			});
 	});
 
 module.exports = router;
