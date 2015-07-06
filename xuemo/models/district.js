@@ -17,10 +17,6 @@ module.exports = function(sequelize, DataTypes) {
         District.belongsTo(District, {
           as: "parent"
         });
-        District.hasMany(models.Course, {
-          through: models.CourseDistrict,
-          foreignKey: "districtId"
-        });
       }
     }
   });

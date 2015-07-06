@@ -75,14 +75,14 @@ exports.findAll = function(filter, sorter, pageNumber, pageSize) {
 		});
 }
 
-exports.findByIdArr = function(idArr) {
+exports.findByIdArr = function(idArr, handledSorter) {
 	return models.Course.findAll({
 		where: {
 			id: {
-				$in: courseIdArr
+				$in: idArr
 			}
 		},
-		attributes: ['id', 'title', 'price', 'status', 'rating', 'ratingCount', 'teacherId', 'categoryId', 'createdAt', 'updatedAt'],
+		attributes: ['id', 'title', 'price', 'status', 'teacherId', 'categoryId', 'districtId', 'location','createdAt', 'updatedAt'],
 		order: handledSorter,
 		include: [{
 			model: models.User,
@@ -94,7 +94,7 @@ exports.findByIdArr = function(idArr) {
 			attributes: ['id', 'name'],
 		}, {
 			model: models.District,
-			as: "districts",
+			as: "district",
 			attributes: ['id', 'name', 'fullName'],
 		}, {
 			model: models.CoursePic,

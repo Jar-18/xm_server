@@ -13,18 +13,25 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.INTEGER,
       defaultValue: 1
     },
+    teacherId: DataTypes.INTEGER,
+    categoryId: DataTypes.INTEGER,
+    districtId: DataTypes.INTEGER,
+    location: DataTypes.STRING,
     describe: DataTypes.STRING,
   }, {
     classMethods: {
       associate: function(models) {
         Course.belongsTo(models.User, {
-          as: "teacher"
+          as: "teacher",
+          foreignKey: "teacherId"
         });
         Course.belongsTo(models.Category, {
-          as: "category"
+          as: "category",
+          foreignKey: "categoryId"
         });
         Course.belongsTo(models.District, {
-          as: "district"
+          as: "district",
+          foreignKey: "districtId"
         });
         Course.hasMany(models.CoursePic, {
           as: "pics",

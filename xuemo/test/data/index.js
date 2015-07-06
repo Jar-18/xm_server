@@ -3,11 +3,11 @@ var data = require("./data.json");
 var districts = require("./districts.json");
 var categories = require("./category.json");
 
-// var rc = require('redis').createClient();
+var rc = require('redis').createClient();
 
 exports.createInitData = function() {
 
-  // rc.flushdb();
+  rc.flushdb();
 
   return models.sequelize.sync({
       force: true

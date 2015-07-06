@@ -23,6 +23,7 @@ router.post('/signAuth', function(req, res, next) {
 
 router.all('*', function(req, res, next) {
 	var token = req.body.token || req.query.token || req.headers['authorization'];
+	console.log(token);
 	var authRes = authService.verifyAuth(token);
 	if ('Success' == authRes.status) {
 		next();
