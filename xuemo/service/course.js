@@ -2,6 +2,8 @@ var models = require('../models');
 
 var dateUtil = require('../util/dateUtil');
 
+var rc = require('then-redis').createClient();
+
 exports.create = function(newCourse) {
 	return models.Course.create(newCourse)
 		.then(function(course) {
@@ -82,7 +84,7 @@ exports.findByIdArr = function(idArr, handledSorter) {
 				$in: idArr
 			}
 		},
-		attributes: ['id', 'title', 'price', 'status', 'teacherId', 'categoryId', 'districtId', 'location','createdAt', 'updatedAt'],
+		attributes: ['id', 'title', 'price', 'status', 'teacherId', 'categoryId', 'districtId', 'location', 'createdAt', 'updatedAt'],
 		order: handledSorter,
 		include: [{
 			model: models.User,
@@ -101,6 +103,48 @@ exports.findByIdArr = function(idArr, handledSorter) {
 			as: "pics",
 			attributes: ['name']
 		}],
+	});
+}
+
+exports.findOne = function(courseId, params) {
+	return models.Course.find({
+		where: {
+			id: courseId
+		},
+		attributes: [
+			'id', 'title', 'price', 'status', 'describe', 'teacherId', 'categoryId', 'districtId', 'location'
+		],
+		include: [{
+			model: models.User,
+			as: "teacher",
+			attributes: ['id', 'nickname', 'gender', 'age', 'portrait', 'motto']
+		}, {
+			model: models.Category,
+			as: "category",
+			attributes: ['id', 'name']
+		}, {
+			model: models.District,
+			as: "district",
+			attributes: ['id', 'name', 'fullName']
+		}, {
+			model: models.CoursePic,
+			as: "pics",
+			attributes: ['name'],
+		}]
+	}).then(function(course) {
+		if (params.userId) {
+			return rc.zscore('courseFavourite:' + params.userId, courseId)
+				.then(function(score) {
+					if (null == score || undefined == score) {
+						course.dataValues.isFavourite = false;
+					} else {
+						course.dataValues.isFavourite = true;
+					}
+					return course;
+				});
+		} else {
+			return course;
+		}
 	});
 }
 

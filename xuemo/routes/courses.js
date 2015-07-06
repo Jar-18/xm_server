@@ -45,7 +45,15 @@ router.get('/', function(req, res, next) {
 	});
 
 router.get('/:courseId', function(req, res, next) {
+	var courseId = req.params.courseId;
+	var params = {
+		userId: req.query.userId
+	};
 
+	courseService.findOne(courseId, params)
+		.then(function(course) {
+			res.json(course);
+		});
 })
 
 module.exports = router;
