@@ -21,7 +21,12 @@ router.post('/', function(req, res, next) {
 });
 
 router.get('/:userId', function(req, res, next) {
+		var userId = req.params.userId;
 
+		userService.findOne(userId)
+			.then(function(user) {
+				res.json(user);
+			});
 	})
 	.put('/:userId', function(req, res, next) {
 

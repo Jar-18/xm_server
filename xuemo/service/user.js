@@ -18,3 +18,21 @@ exports.create = function(newUser) {
 
 	return models.User.create(newUser);
 }
+
+exports.findOne = function(userId) {
+	return models.User.findOne({
+		where: {
+			id: userId
+		},
+		attributes: ['nickname', 'gender', 'age', 'portrait', 'motto', 'constellation', 'districtId'],
+		include: [{
+			model: models.Category,
+			as: "interests",
+			attributes: ['id', 'name']
+		}, {
+			model: models.District,
+			as: "district",
+			attributes: ['id', 'name', 'fullName']
+		}]
+	});
+}

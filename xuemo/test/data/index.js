@@ -22,6 +22,9 @@ exports.createInitData = function() {
       return models.User.bulkCreate(data.users);
     })
     .then(function() {
+      return models.UserInterest.bulkCreate(data.userInterests);
+    })
+    .then(function() {
       return models.Course.bulkCreate(data.courses);
     })
     .then(function() {

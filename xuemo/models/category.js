@@ -16,6 +16,10 @@ module.exports = function(sequelize, DataTypes) {
         Category.belongsTo(Category, {
           as: 'parent'
         });
+        Category.belongsToMany(models.User, {
+          through: models.UserInterest,
+          foreignKey: "interestId"
+        });
       }
     }
   });

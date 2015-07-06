@@ -12,10 +12,7 @@ module.exports = function(sequelize, DataTypes) {
     timestamps: true,
     classMethods: {
       associate: function(models) {
-        UserInterest.belongsTo(models.User, {
-          as: "user",
-          foreignKey: "userId"
-        });
+
       }
     }
   });

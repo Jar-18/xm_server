@@ -80,5 +80,21 @@
 		"id": "3",
 		"name": "badminton.jpg",
 		"courseId": "3"
+	}],
+	"userInterests": [{
+		"userId": 1,
+		"interestId": 18
+	}, {
+		"userId": 1,
+		"interestId": 43
+	}, {
+		"userId": 2,
+		"interestId": 88
+	}, {
+		"userId": 2,
+		"interestId": 65
+	}, {
+		"userId": 3,
+		"interestId": 2
 	}]
 }
